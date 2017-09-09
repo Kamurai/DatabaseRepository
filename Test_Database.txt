@@ -1,0 +1,13 @@
+create table test_table (id int not null primary key, name varchar(20) not null, quote varchar(50) not null);
+
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (1, 'Alpha', 'We are Legion.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (2, 'Bravo', 'Bang for your buck.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (3, 'Charlie', 'Chapman came in 3rd.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (4, 'Delta', 'Delta Dogs.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (5, 'Echo', 'Echo was the key.');
+
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (6, 'Foxtrot', 'Foxtrot Uniform Charlie Kilo.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (7, 'Golf', 'Gonna Get it Good.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (8, 'Hotel', 'Humpday quickie.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (9, 'India', 'Icky sticky.');
+INSERT INTO TEST_TABLE (id, name, quote) VALUES (10, 'Juliet', 'Ended with a dagger.');
