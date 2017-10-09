@@ -1,0 +1,13 @@
+create table OracleTests( Indext number, CONSTRAINT pk_Indext PRIMARY KEY (Indext), Color varchar2(50) UNIQUE NOT NULL );
+
+insert into OracleTests (Indext, Color) values (0, 'Oracle 11g');
+insert into OracleTests (Indext, Color) values (1, 'Red');
+insert into OracleTests (Indext, Color) values (2, 'Orange');
+insert into OracleTests (Indext, Color) values (3, 'Yellow');
+insert into OracleTests (Indext, Color) values (4, 'Green');
+insert into OracleTests (Indext, Color) values (5, 'Blue');
+insert into OracleTests (Indext, Color) values (6, 'Indigo');
+insert into OracleTests (Indext, Color) values (7, 'Violet');
+commit;
+
+select * from OracleTests;
